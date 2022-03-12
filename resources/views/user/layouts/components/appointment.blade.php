@@ -41,11 +41,21 @@
                                   </select>
                              </div>
 
+                             <div class="col-md-6 col-sm-6">
+                              <label for="date">Matric no</label>
+                              <input type="number" name="date" value="" class="form-control" placeholder="matric number">
+                         </div>
+
+                         <div class="col-md-6 col-sm-6">
+                              <label for="date">Student Department</label>
+                              <input type="number" name="date" value="" class="form-control" placeholder="Department ">
+                         </div>
+
                              <div class="col-md-12 col-sm-12">
                                   <label for="telephone">Phone Number</label>
                                   <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
-                                  <label for="Message">Additional Message</label>
-                                  <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
+                                  <label for="Message">Describe symptoms</label>
+                                  <textarea class="form-control" rows="5" id="message" name="message" placeholder="Describe symptom"></textarea>
                                   <button type="submit" class="form-control" id="cf-submit" name="submit">Submit Button</button>
                              </div>
                         </div>

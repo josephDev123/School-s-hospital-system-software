@@ -25,6 +25,6 @@ http://www.tooplate.com/view/2098-health
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="user/asset/css/tooplate-style.css">
-
+     @livewireStyles
 </head>
 <body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">

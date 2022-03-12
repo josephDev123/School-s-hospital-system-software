@@ -9,7 +9,7 @@
               </button>
 
               <!-- lOGO TEXT HERE -->
-              <a href="index.html" class="navbar-brand"><i class="fa fa-h-square"></i>ealth Center</a>
+              <a href="index.html" class="navbar-brand">Chrisland University Health Center</a>
          </div>
 
          <!-- MENU LINKS -->
