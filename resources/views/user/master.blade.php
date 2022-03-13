@@ -22,8 +22,7 @@
      @include('user.layouts.components.latestnews')
 
      <!-- MAKE AN APPOINTMENT -->
-     {{-- @include('user.layouts.components.appointment') --}}
-     <livewire:appointment>
+     <livewire:appointment/>
      <!-- FOOTER -->
      @include('user.layouts.components.footer')
     
