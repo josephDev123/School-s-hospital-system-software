@@ -1,3 +1,3 @@
-## Hospital management software
+## School's Hospital management software
 
 ### coming soon ......
