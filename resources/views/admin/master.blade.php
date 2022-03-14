@@ -7,7 +7,7 @@
       @include('admin.layouts.components.sidebar')
       
       <div class="container-fluid page-body-wrapper">
-        <div id="theme-settings" class="settings-panel">
+        {{-- <div id="theme-settings" class="settings-panel">
           <i class="settings-close mdi mdi-close"></i>
           <p class="settings-heading">SIDEBAR SKINS</p>
           <div class="sidebar-bg-options selected" id="sidebar-default-theme">
@@ -21,12 +21,12 @@
             <div class="tiles light"></div>
             <div class="tiles dark"></div>
           </div>
-        </div>
+        </div> --}}
            {{-- NAVIGATION --}}
         @include('admin.layouts.components.navigation')
 
         <div class="main-panel">
-            {{-- MAIN BODY --}}
+           @include('admin.layouts.pages.home')
             
       {{-- FOOTER --}}
       @include('admin.layouts.components.footer')
