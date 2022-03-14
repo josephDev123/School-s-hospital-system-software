@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('/admin/home', function () {
     return view('admin.master');
-});
+})->middleware(['auth']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

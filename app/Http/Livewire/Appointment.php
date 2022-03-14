@@ -42,7 +42,6 @@ class Appointment extends Component
         ]);
 
         session()->flash('success', 'Medical appointment sent');
-        redirect()->back();
         $this->resetValidation();
         $this->reset();
 
