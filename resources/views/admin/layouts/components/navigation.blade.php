@@ -88,29 +88,19 @@
         </li>
       </ul>
       <ul class="navbar-nav navbar-nav-right ml-lg-auto">
-        <li class="nav-item dropdown d-none d-xl-flex border-0">
-          <a class="nav-link dropdown-toggle" id="languageDropdown" href="#" data-toggle="dropdown">
-            <i class="mdi mdi-earth"></i> English </a>
-          <div class="dropdown-menu navbar-dropdown" aria-labelledby="languageDropdown">
-            <a class="dropdown-item" href="#"> French </a>
-            <a class="dropdown-item" href="#"> Spain </a>
-            <a class="dropdown-item" href="#"> Latin </a>
-            <a class="dropdown-item" href="#"> Japanese </a>
-          </div>
-        </li>
         <li class="nav-item nav-profile dropdown border-0">
           <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown">
-            <img class="nav-profile-img mr-2" alt="" src="assets/images/faces/face1.jpg" />
+            <img class="nav-profile-img mr-2" alt="" src="/admin/template/assets/images/faces/face1.jpg" />
             <span class="profile-name">Henry Klein</span>
           </a>
           <div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
-            <a class="dropdown-item" href="#">
-              <i class="mdi mdi-cached mr-2 text-success"></i> Activity Log </a>
+              <a class="dropdown-item" href="">
+                <i class="mdi mdi-logout mr-2 text-primary"></i> <button type="submit" class="btn btn-secondary">Home</button> </a>
+            
               <form action="{{ url('logout') }}" method="POST">
                 @csrf
                 <a class="dropdown-item" href="">
                   <i class="mdi mdi-logout mr-2 text-primary"></i> <button type="submit" class="btn btn-primary">Signout</button> </a>
-                 
               </form>
            
           </div>

@@ -1,13 +1,13 @@
 <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <div class="text-center sidebar-brand-wrapper d-flex align-items-center">
-      <a class="sidebar-brand brand-logo" href="index.html"><img src="assets/images/logo.svg" alt="logo" /></a>
-      <a class="sidebar-brand brand-logo-mini pl-4 pt-3" href="index.html"><img src="assets/images/logo-mini.svg" alt="logo" /></a>
+      <a class="sidebar-brand brand-logo img-fluid " href="index.html"><img src="/app_logo/hospital_logo.jpg" style="max-width:34px; max-height:34px" alt="logo" width="34px" height="34px"/></a>
+      <a class="sidebar-brand brand-logo-mini pl-4 pt-3" href="index.html"><img src="/app_logo/hospital_logo.jpg" alt="logo" /></a>
     </div>
     <ul class="nav">
       <li class="nav-item nav-profile">
         <a href="#" class="nav-link">
           <div class="nav-profile-image">
-            <img src="assets/images/faces/face1.jpg" alt="profile" />
+            <img src="/admin/template/assets/images/faces/face1.jpg" alt="profile" />
             <span class="login-status online"></span>
             <!--change to offline or busy as needed-->
           </div>
@@ -26,20 +26,17 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-          <i class="mdi mdi-crosshairs-gps menu-icon"></i>
-          <span class="menu-title">Basic UI Elements</span>
+          <i class="fas fa-calendar-check me-2 "></i>
+          <span class="menu-title">Appointment</span>
           <i class="menu-arrow"></i>
         </a>
         <div class="collapse" id="ui-basic">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item">
-              <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
+              <a class="nav-link" href="pages/ui-features/buttons.html">Create Appointment</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/ui-features/typography.html">Typography</a>
+              <a class="nav-link" href="pages/ui-features/dropdowns.html">View Appointment</a>
             </li>
           </ul>
         </div>

@@ -19,7 +19,7 @@
      @include('user.layouts.components.team')
 
      <!--latest NEWS -->
-     @include('user.layouts.components.latestnews')
+     {{-- @include('user.layouts.components.latestnews') --}}
 
      <!-- MAKE AN APPOINTMENT -->
      <livewire:appointment/>
