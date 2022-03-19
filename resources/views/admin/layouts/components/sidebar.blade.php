@@ -4,7 +4,7 @@
       <a class="sidebar-brand brand-logo-mini pl-4 pt-3" href="index.html"><img src="/app_logo/hospital_logo.jpg" alt="logo" /></a>
     </div>
     <ul class="nav">
-      <li class="nav-item nav-profile">
+      {{-- <li class="nav-item nav-profile">
         <a href="#" class="nav-link">
           <div class="nav-profile-image">
             <img src="/admin/template/assets/images/faces/face1.jpg" alt="profile" />
@@ -17,7 +17,7 @@
           </div>
           <span class="badge badge-danger text-white ml-3 rounded">3</span>
         </a>
-      </li>
+      </li> --}}
       <li class="nav-item">
         <a class="nav-link" href="{{ route('Dashboard') }}">
           <i class="mdi mdi-home menu-icon"></i>

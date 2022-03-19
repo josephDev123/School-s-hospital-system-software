@@ -17,7 +17,7 @@
 
                         <div class="wow fadeInUp" data-wow-delay="0.8s">
                              <div class="col-md-6 col-sm-6">
-                                  <label for="name">Name</label>
+                                  <label for="name">Fullname</label>
                                   <input type="text" class="form-control" id="name" name="name" placeholder="Full Name">
                              </div>
 
@@ -43,12 +43,12 @@
 
                              <div class="col-md-6 col-sm-6">
                               <label for="date">Matric no</label>
-                              <input type="number" name="date" value="" class="form-control" placeholder="matric number">
+                              <input type="text" name="matric_no" value="" class="form-control" placeholder="matric number">
                          </div>
 
                          <div class="col-md-6 col-sm-6">
-                              <label for="date">Student Department</label>
-                              <input type="number" name="date" value="" class="form-control" placeholder="Department ">
+                              <label for="student_department">Student Department</label>
+                              <input type="number" name="student_department" value="" id="student_department" class="form-control" placeholder="Department ">
                          </div>
 
                              <div class="col-md-12 col-sm-12">

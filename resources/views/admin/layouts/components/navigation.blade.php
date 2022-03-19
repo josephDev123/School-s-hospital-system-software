@@ -95,12 +95,12 @@
           </a>
           <div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
               <a class="dropdown-item" href="">
-                <i class="mdi mdi-logout mr-2 text-primary"></i> <button type="submit" class="btn btn-secondary">Home</button> </a>
+                <i class="fas fa-home text-primary"></i><button type="submit" class="btn btn-secondary">Home</button> </a>
             
               <form action="{{ url('logout') }}" method="POST">
                 @csrf
                 <a class="dropdown-item" href="">
-                  <i class="mdi mdi-logout mr-2 text-primary"></i> <button type="submit" class="btn btn-primary">Signout</button> </a>
+                  <i class="mdi mdi-logout mr-2 text-danger"></i> <button type="submit" class="btn btn-warning">Signout</button> </a>
               </form>
            
           </div>
