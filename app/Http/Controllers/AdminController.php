@@ -11,6 +11,10 @@ class AdminController extends Controller
     //     $request->session()->invalidate();
     //     $request->session()->regenerateToken();
     // }
-    return view('admin.master');
+    return view('admin.layouts.pages.home');
+    }
+
+    public function createAppointment(){
+        return view('admin.layouts.pages.createAppointment');
     }
 }

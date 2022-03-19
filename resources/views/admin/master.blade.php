@@ -26,7 +26,8 @@
         @include('admin.layouts.components.navigation')
 
         <div class="main-panel">
-           @include('admin.layouts.pages.home')
+          
+          @yield('section')
             
       {{-- FOOTER --}}
       @include('admin.layouts.components.footer')

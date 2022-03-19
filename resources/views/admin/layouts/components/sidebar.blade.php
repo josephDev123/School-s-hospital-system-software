@@ -19,21 +19,21 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('Dashboard') }}">
           <i class="mdi mdi-home menu-icon"></i>
           <span class="menu-title">Dashboard</span>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-          <i class="fas fa-calendar-check me-2 "></i>
+          <i class="fas fa-calendar-check me-2"></i>
           <span class="menu-title">Appointment</span>
           <i class="menu-arrow"></i>
         </a>
         <div class="collapse" id="ui-basic">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item">
-              <a class="nav-link" href="pages/ui-features/buttons.html">Create Appointment</a>
+              <a class="nav-link" href={{ route('create_appointment') }}>Create Appointment</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/ui-features/dropdowns.html">View Appointment</a>

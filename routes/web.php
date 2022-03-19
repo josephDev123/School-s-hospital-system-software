@@ -5,7 +5,7 @@ use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,8 +20,13 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/admin/dashboard', [AdminController::class, 'index'])->middleware(['auth']);
-Route::get('/admin/appointment', [AdminController::class, 'index'])->middleware(['auth']);
+Route::prefix('admin')->group(function(){
+
+    Route::get('/dashboard', [AdminController::class, 'index'])->name('Dashboard');
+    Route::get('/appointment', [AdminController::class, 'createAppointment'])->name('create_appointment');
+
+});
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
