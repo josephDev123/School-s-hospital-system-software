@@ -94,7 +94,7 @@
             <span class="profile-name">Henry Klein</span>
           </a>
           <div class="dropdown-menu navbar-dropdown w-100" aria-labelledby="profileDropdown">
-              <a class="dropdown-item" href="">
+              <a class="dropdown-item" href="{{ url('/') }}">
                 <i class="fas fa-home text-primary"></i><button type="submit" class="btn btn-secondary">Home</button> </a>
             
               <form action="{{ url('logout') }}" method="POST">

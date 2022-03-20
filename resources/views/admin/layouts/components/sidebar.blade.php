@@ -25,6 +25,12 @@
         </a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="{{ route('Dashboard') }}">
+          <i class="fas fa-address-card me-2"></i>
+          <span class="menu-title">Profile</span>
+        </a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
           <i class="fas fa-calendar-check me-2"></i>
           <span class="menu-title">Appointment</span>
@@ -42,39 +48,33 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="pages/icons/mdi.html">
-          <i class="mdi mdi-contacts menu-icon"></i>
-          <span class="menu-title">Icons</span>
+        <a class="nav-link" href="{{ route('Dashboard') }}">
+          <i class="fas fa-user-md me-2"></i>
+          <span class="menu-title">Add Doctors</span>
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="pages/forms/basic_elements.html">
-          <i class="mdi mdi-format-list-bulleted menu-icon"></i>
-          <span class="menu-title">Forms</span>
-        </a>
+
+      {{-- <li class="nav-item">
+        <a class="nav-link" href="{{ route('Dashboard') }}">
+          <i class="fas fa-hospital-user me-2"></i>
+          <span class="menu-title">Student patient</span>
+        </a> --}}
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('Dashboard') }}">
+            {{-- <i class="fas fa-hospital-user me-2"></i> --}}
+            <i class="fas fa-book-medical me-2"></i>
+            <span class="menu-title">Student Record</span>
+          </a>
+     
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="pages/charts/chartjs.html">
-          <i class="mdi mdi-chart-bar menu-icon"></i>
-          <span class="menu-title">Charts</span>
+        <a class="nav-link" href="{{ route('Dashboard') }}">
+          <i class="fas fa-user-md me-2"></i>
+          <span class="menu-title">Add Doctors</span>
         </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="pages/tables/basic-table.html">
-          <i class="mdi mdi-table-large menu-icon"></i>
-          <span class="menu-title">Tables</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <span class="nav-link" href="#">
-          <span class="menu-title">Docs</span>
-        </span>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://www.bootstrapdash.com/demo/breeze-free/documentation/documentation.html">
-          <i class="mdi mdi-file-document-box menu-icon"></i>
-          <span class="menu-title">Documentation</span>
-        </a>
+      
       </li>
       <li class="nav-item sidebar-actions">
         <div class="nav-link">
