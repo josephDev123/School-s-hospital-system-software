@@ -24,7 +24,7 @@ Route::prefix('admin')->group(function(){
 
     Route::get('/dashboard', [AdminController::class, 'index'])->name('Dashboard');
     Route::get('/appointment', [AdminController::class, 'createAppointment'])->name('create_appointment');
-
+    Route::get('/view_appointment', [AdminController::class, 'viewAppointment'])->name('view_appointment');
 });
 
 

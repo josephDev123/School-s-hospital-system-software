@@ -1,10 +1,10 @@
 <div class="row">
-    <div class="col-md-6 col-sm-6 mt-4">
+    <div class="col-md-6 col-sm-12 mt-4 createAppointment">
         <img class="create_appoint_img" src="/admin/template/assets/images/createAppointment_img/undraw_medical_care_movn.png" class="img-responsive" alt="">
     </div>
 
-    <div class="col-md-6 col-sm-6 mt-4">
-        <h1><i class="fas fa-calendar-check mb-4 me-4"></i>Make Appointment</h1>
+    <div class="col-md-6 col-sm-12 mt-4">
+        <h1 class="createAppointmentHeading"><i class="fas fa-calendar-check mb-4 me-4"></i>Make Appointment</h1>
         
         <form wire:submit.prevent="appointSubmit">
     
