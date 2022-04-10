@@ -42,7 +42,7 @@
               <a class="nav-link" href={{ route('create_appointment') }}>Create Appointment</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/ui-features/dropdowns.html">View Appointment</a>
+              <a class="nav-link" href="{{ route('view_appointment') }}">View Appointment</a>
             </li>
           </ul>
         </div>
