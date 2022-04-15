@@ -19,6 +19,6 @@ class AdminController extends Controller
     }
 
     public function viewAppointment(){
-        return view('admin.layouts.pages.views_details');
+        return view('admin.layouts.pages.views_appointment_details');
     }
 }

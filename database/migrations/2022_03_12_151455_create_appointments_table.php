@@ -23,7 +23,8 @@ return new class extends Migration
             $table->string('student_matric');
             $table->string('student_department');
             $table->string('student_phoneNumber');
-            $table->string('user_id')->Nullable();
+            $table->string('symptom');
+            $table->string('user_id')->nullable();
         });
     }
 
