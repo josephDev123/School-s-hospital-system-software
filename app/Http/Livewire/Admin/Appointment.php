@@ -21,7 +21,7 @@ class Appointment extends Component
 
     protected $rules = [
         'fullname' => 'required|string|',
-        'email' => 'required|email:rfc,dns|',
+        'email' => 'required|email|',
         'medical_department' => 'required|string|',
         'matric_no' => 'required|string|',
         'student_department' => 'required|string|',
@@ -48,7 +48,8 @@ class Appointment extends Component
 
         ]);
 
-        $this->session()->flash('success', 'Appointment Created successfully');
+        session()->flash('success', 'Appointment Created successfully');
+        $this->reset();
         
       
     }

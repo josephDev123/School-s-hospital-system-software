@@ -1,14 +1,14 @@
 
 
-.view_appointment_container{
+/* .view_appointment_container{
     display: flex;
     flex-direction: column;
     /* justify-content: center;
     align-items: center; */
-    width: 90%;
+    /* width: 90%;
     margin: 1em auto ;
-    font-size: 1em;
-}
+    font-size: 1em; */
+/* } */ */
 
 .view_appointment_heading{
     font-size: clamp(0.2em, 0.5em, 4rem);

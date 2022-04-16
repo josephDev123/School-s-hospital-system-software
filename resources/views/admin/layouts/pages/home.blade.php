@@ -1,10 +1,8 @@
 
-
   @extends('admin.master')
-
       @section('section')
           <div class="content-wrapper pb-0">
-          
+            <div class="container">
               <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
                   <div class="card h-100 bg-primary">
@@ -35,9 +33,5 @@
                 </div>
               </div>
           </div>
-
-      @endsection
-
-          
-
-   
+        </div>
+      @endsection 
