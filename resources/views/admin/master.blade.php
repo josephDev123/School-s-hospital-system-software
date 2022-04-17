@@ -29,6 +29,10 @@
           
           @yield('section')
             
+
+          {{-- END OF BODY --}}
+          @yield('end')
+          
       {{-- FOOTER --}}
       @include('admin.layouts.components.footer')
         </div>

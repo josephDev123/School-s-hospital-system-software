@@ -47,11 +47,25 @@
           </ul>
         </div>
       </li>
+      
+
+      
       <li class="nav-item">
-        <a class="nav-link" href="{{ route('Dashboard') }}">
-          <i class="fas fa-user-md me-2"></i>
+        <a class="nav-link" data-toggle="collapse" href="#ui-doctor" aria-expanded="false" aria-controls="ui-doctor">
+          <i class="fas fa-calendar-check me-2"></i>
           <span class="menu-title">Add Doctors</span>
+          <i class="menu-arrow"></i>
         </a>
+        <div class="collapse" id="ui-doctor">
+          <ul class="nav flex-column sub-menu">
+            <li class="nav-item">
+              <a class="nav-link" href={{ route('add_doctor') }}>Add Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{{ route('view_appointment') }}">View Doctors</a>
+            </li>
+          </ul>
+        </div>
       </li>
 
       {{-- <li class="nav-item">
@@ -67,14 +81,6 @@
             <span class="menu-title">Student Record</span>
           </a>
      
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="{{ route('Dashboard') }}">
-          <i class="fas fa-user-md me-2"></i>
-          <span class="menu-title">Add Doctors</span>
-        </a>
-      
       </li>
       <li class="nav-item sidebar-actions">
         <div class="nav-link">

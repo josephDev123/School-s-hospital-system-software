@@ -23,8 +23,10 @@ Route::get('/', [HomeController::class, 'index']);
 Route::prefix('admin')->group(function(){
 
     Route::get('/dashboard', [AdminController::class, 'index'])->name('Dashboard');
+    //appointment
     Route::get('/appointment', [AdminController::class, 'createAppointment'])->name('create_appointment');
     Route::get('/view_appointment', [AdminController::class, 'viewAppointment'])->name('view_appointment');
+    Route::get('/add_doctor', [AdminController::class, 'addDoctor'])->name('add_doctor');
 });
 
 

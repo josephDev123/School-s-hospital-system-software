@@ -2,9 +2,9 @@
   @section('section')
 
       <div class="content-wrapper pb-0">
-        <div class="container">
+        {{-- <div class="container"> --}}
             <livewire:admin.view-appointment-details>
-        </div> 
+        {{-- </div>  --}}
       </div>
       
   @endsection

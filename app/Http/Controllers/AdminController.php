@@ -21,4 +21,8 @@ class AdminController extends Controller
     public function viewAppointment(){
         return view('admin.layouts.pages.views_appointment_details');
     }
+
+    public function addDoctor(){
+        return view('admin.layouts.pages.add_doctor');
+    }
 }
