@@ -1,0 +1,8 @@
+.doctors_banner{
+    object-fit: cover;
+    /* width: 30em;
+    height: 30em; */
+
+     width: calc(12em + 30vw);
+    height: calc(8em + 50vh); 
+}
