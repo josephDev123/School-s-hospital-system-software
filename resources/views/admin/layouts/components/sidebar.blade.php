@@ -62,7 +62,7 @@
               <a class="nav-link" href={{ route('add_doctor') }}>Add Doctors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('view_appointment') }}">View Doctors</a>
+              <a class="nav-link" href="{{ route('view_doctor') }}">View Doctors</a>
             </li>
           </ul>
         </div>
