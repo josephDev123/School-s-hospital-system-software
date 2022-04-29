@@ -29,4 +29,8 @@ class AdminController extends Controller
     public function viewDoctor(){
         return view('admin.layouts.pages.view_doctor');
     }
+
+    public function AddProfile(){
+        return view('admin.layouts.pages.add_profile');
+    }
 }

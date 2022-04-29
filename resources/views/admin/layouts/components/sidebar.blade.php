@@ -24,12 +24,25 @@
           <span class="menu-title">Dashboard</span>
         </a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="{{ route('Dashboard') }}">
-          <i class="fas fa-address-card me-2"></i>
+        <a class="nav-link" data-toggle="collapse" href="#profile-basic" aria-expanded="false" aria-controls="profile-basic">
+          <i class="fas fa-calendar-check me-2"></i>
           <span class="menu-title">Profile</span>
+          <i class="menu-arrow"></i>
         </a>
+        <div class="collapse" id="profile-basic">
+          <ul class="nav flex-column sub-menu">
+            <li class="nav-item">
+              <a class="nav-link" href={{ route('profile') }}>Add profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">View profile</a>
+            </li>
+          </ul>
+        </div>
       </li>
+
       <li class="nav-item">
         <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
           <i class="fas fa-calendar-check me-2"></i>
