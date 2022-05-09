@@ -28,7 +28,7 @@ Route::prefix('admin')->group(function(){
     Route::get('/view_appointment', [AdminController::class, 'viewAppointment'])->name('view_appointment');
     Route::get('/add_doctor', [AdminController::class, 'addDoctor'])->name('add_doctor');
     Route::get('/view_doctor', [AdminController::class, 'viewDoctor'])->name('view_doctor');
-    Route::get('profile', [AdminController::class, 'AddProfile'])->name('profile');
+    Route::get('/profile', [AdminController::class, 'profile'])->name('profile');
 });
 
 

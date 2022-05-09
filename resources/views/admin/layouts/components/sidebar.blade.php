@@ -34,10 +34,7 @@
         <div class="collapse" id="profile-basic">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item">
-              <a class="nav-link" href={{ route('profile') }}>Add profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">View profile</a>
+              <a class="nav-link" href={{ route('profile') }}>View profile</a>
             </li>
           </ul>
         </div>
