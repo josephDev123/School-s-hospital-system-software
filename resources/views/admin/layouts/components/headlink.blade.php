@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="/css/createAppointment.css">
     <link rel="stylesheet" href="/css/view_appointment.css">
     <link rel="stylesheet" href="/css/add_doctor_and-view_doctor.css">
+    <link rel="stylesheet" href="/css/add_staff.css">
+
     @livewireStyles
   
   </head>

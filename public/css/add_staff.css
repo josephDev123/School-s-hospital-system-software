@@ -1,0 +1,16 @@
+.content_rows{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.staff_img{
+    background-image: url('/public/admin/template/assets/images/add_staff/unsplash.jpg');
+    /* flex-basis: 20em; */
+    height: 50%;
+}
+
+.staff_img, .staff_form{
+    flex-grow: 1;
+
+}
