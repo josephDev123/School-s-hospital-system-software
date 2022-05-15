@@ -28,13 +28,16 @@
       <li class="nav-item">
         <a class="nav-link" data-toggle="collapse" href="#profile-basic" aria-expanded="false" aria-controls="profile-basic">
           <i class="fas fa-calendar-check me-2"></i>
-          <span class="menu-title">Profile</span>
+          <span class="menu-title">Staff</span>
           <i class="menu-arrow"></i>
         </a>
         <div class="collapse" id="profile-basic">
           <ul class="nav flex-column sub-menu">
             <li class="nav-item">
-              <a class="nav-link" href={{ route('profile') }}>View profile</a>
+              <a class="nav-link" href={{ route('add_staff') }}>Add staff</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href={{ route('staff') }}>View staff</a>
             </li>
           </ul>
         </div>
