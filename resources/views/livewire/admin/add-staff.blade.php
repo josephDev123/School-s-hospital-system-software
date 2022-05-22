@@ -6,15 +6,20 @@
         
         <div class="content_rows">
             <div class="staff_img">
-             
+              <img class="add_staff_img" src="/admin/template/assets/images/add_view_staff/unsplash.jpg" alt="" srcset="">
             </div>
-
+            {{-- width="100px" height="100px" --}}
             <div class="staff_form">
                 <form>
                     <div class="mb-3">
-                      <label for="staff_name" class="form-label">Staff name</label>
-                      <input type="text" class="form-control" id="staff_name" aria-describedby="staff_nameHelp">
-                      <div id="staff_nameHelp" class="form-text"></div>
+                      <label for="first_name" class="form-label"> Firstname</label>
+                      <input type="text" class="form-control" id="first_name" aria-describedby="first_nameHelp">
+                      <div id="first_nameHelp" class="form-text"></div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="last_name" class="form-label"> Lastname</label>
+                      <input type="text" class="form-control" id="last_name" aria-describedby="last_nameHelp">
+                      <div id="last_nameHelp" class="form-text"></div>
                     </div>
                     <div class="mb-3">
                       <label for="staff_department" class="form-label">Department</label>

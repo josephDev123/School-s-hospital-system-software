@@ -5,9 +5,14 @@
 }
 
 .staff_img{
-    background-image: url('/public/admin/template/assets/images/add_staff/unsplash.jpg');
+  
     /* flex-basis: 20em; */
     height: 50%;
+}
+
+.add_staff_img{
+    object-fit: contain;
+    width: clamp(25em, 25em, 100em);
 }
 
 .staff_img, .staff_form{
