@@ -4,7 +4,7 @@
     </div>
     
 
-    <div class="col-md-6 col-sm-12 mt-4">
+    <div class="col-md-6 col-sm-12 mt-4 mb-2">
         @if (session()->has('success'))
             <div class="alert alert-primary" role="alert">
                 {{ session()->get('success') }}

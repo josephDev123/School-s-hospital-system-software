@@ -1,7 +1,8 @@
 .create_appoint_img{
-    width: 20em;
+    width: clamp(100%, 100%, 100%);
 }
 
-.createAppointmentHeading{
+/* .createAppointmentHeading{
     font-size: clamp(0.2em, 1.5em, 2.5em);
 }
+ */

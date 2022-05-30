@@ -9,7 +9,6 @@
             <th scope="col">Lastname</th>
             <th scope="col">Email</th>
             <th scope="col">User type</th>
-            <th scope="col">User-permission</th>
         </tr>
         </thead>
         <tbody>
@@ -19,18 +18,6 @@
             <td>Doe</td>
             <td>Otto@gmail.com</td>
             <td>user</td>
-            <td>
-                <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown button
-                    </button>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                      <li><a class="dropdown-item" href="#">user</a></li>
-                      <li><a class="dropdown-item" href="#">admin</a></li>
-                      <li><a class="dropdown-item" href="#">chief-admin</a></li>
-                    </ul>
-                  </div>
-            </td>
         </tr>
     
         </tbody>

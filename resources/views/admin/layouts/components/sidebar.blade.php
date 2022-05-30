@@ -81,6 +81,13 @@
         </div>
       </li>
 
+      <li class="nav-item">
+        <a class="nav-link" href="">
+          <i class="fa-solid fa-unlock me-2"></i>
+          <span class="menu-title">Role permission</span>
+        </a>
+      </li>
+
       {{-- <li class="nav-item">
         <a class="nav-link" href="{{ route('Dashboard') }}">
           <i class="fas fa-hospital-user me-2"></i>
