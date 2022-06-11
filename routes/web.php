@@ -30,6 +30,7 @@ Route::prefix('admin')->group(function(){
     Route::get('/view_doctor', [AdminController::class, 'viewDoctor'])->name('view_doctor');
     Route::get('/staff', [AdminController::class, 'staff'])->name('staff');
     Route::get('/add_staff', [AdminController::class, 'AddStaff'])->name('add_staff');
+    Route::get('/permission', [AdminController::class, 'create_permission'])->name('create_permission');
 });
 
 

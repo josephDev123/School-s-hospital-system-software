@@ -82,7 +82,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{ route('create_permission') }}">
           <i class="fa-solid fa-unlock me-2"></i>
           <span class="menu-title">Role permission</span>
         </a>

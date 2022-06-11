@@ -1,5 +1,5 @@
 <div class="row">
-   @forelse ($permitted_users as $permitted_user)
+   {{-- @forelse ($permitted_users as $permitted_user) --}}
    <div class="table-responsive">
     <table class="table table-striped table-hover">
         <thead class="table-dark">
@@ -23,7 +23,9 @@
         </tbody>
     </table>
    </div>
+{{-- 
    @empty
+   
        <div class="alert alert-info">No Admin user(s)</div>
-   @endforelse
+   @endforelse --}}
 </div>

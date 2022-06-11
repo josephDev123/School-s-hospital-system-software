@@ -37,4 +37,8 @@ class AdminController extends Controller
     public function AddStaff(){
         return view('admin.layouts.pages.add_staff');
     }
+
+    public function create_permission(){
+        return view('admin.layouts.pages.create_permission');
+    }   
 }
