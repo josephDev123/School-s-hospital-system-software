@@ -40,5 +40,13 @@ class AdminController extends Controller
 
     public function create_permission(){
         return view('admin.layouts.pages.create_permission');
-    }   
+    }  
+
+    public function register(){
+        return 'student register';
+    } 
+
+    public function student_record(){
+        return 'student record';
+    } 
 }

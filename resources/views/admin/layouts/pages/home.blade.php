@@ -1,37 +1,10 @@
 
   @extends('admin.master')
       @section('section')
-          <div class="content-wrapper pb-0">
-            <div class="container">
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <div class="card h-100 bg-primary">
-                    <div class="card-body ">
-                      <h5 class="card-title text-danger">Appointment</h5>
-                      <i class="fas fa-calendar-check fa-4x me-2"></i>
-                      <p class="text-white mt-2">Number :</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 bg-success ">
-                    <div class="card-body">
-                      <h5 class="card-title text-white">Doctors</h5>
-                      <i class="fas fa-user-md fa-4x me-2"></i>
-                      <p class="text-white mt-2">Number :</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-100 bg-danger">
-                    <div class="card-body">
-                      <h5 class="card-title text-white">Student Records</h5>
-                      <i class="fas fa-book-medical fa-4x"></i>
-                      <p class="text-white mt-2 text-primary">Number :</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-          </div>
-        </div>
+          <livewire:admin.home>
+
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#0099ff" fill-opacity="1" d="M0,256L30,261.3C60,267,120,277,180,282.7C240,288,300,288,360,266.7C420,245,480,203,540,181.3C600,160,660,160,720,176C780,192,840,224,900,250.7C960,277,1020,299,1080,304C1140,309,1200,299,1260,298.7C1320,299,1380,309,1410,314.7L1440,320L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path>
+              </svg>
       @endsection 

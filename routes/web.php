@@ -31,6 +31,8 @@ Route::prefix('admin')->group(function(){
     Route::get('/staff', [AdminController::class, 'staff'])->name('staff');
     Route::get('/add_staff', [AdminController::class, 'AddStaff'])->name('add_staff');
     Route::get('/permission', [AdminController::class, 'create_permission'])->name('create_permission');
+    Route::get('/register', [AdminController::class, 'register'])->name('student_registration');
+    Route::get('/record', [AdminController::class, 'student_record'])->name('student_record');
 });
 
 

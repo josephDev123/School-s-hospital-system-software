@@ -95,13 +95,23 @@
         </a> --}}
 
         <li class="nav-item">
-          <a class="nav-link" href="{{ route('Dashboard') }}">
+          <a class="nav-link" href="{{ route('student_registration') }}">
+            {{-- <i class="fas fa-hospital-user me-2"></i> --}}
+            <i class="fas fa-book-medical me-2"></i>
+            <span class="menu-title">Student registration</span>
+          </a>
+     
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="{{ route('student_record') }}">
             {{-- <i class="fas fa-hospital-user me-2"></i> --}}
             <i class="fas fa-book-medical me-2"></i>
             <span class="menu-title">Student Record</span>
           </a>
      
-      </li>
+        </li>
+
       <li class="nav-item sidebar-actions">
         <div class="nav-link">
           <div class="mt-4">
