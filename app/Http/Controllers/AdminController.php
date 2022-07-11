@@ -43,7 +43,7 @@ class AdminController extends Controller
     }  
 
     public function register(){
-        return 'student register';
+        return view('admin.layouts.pages.student_registration');
     } 
 
     public function student_record(){

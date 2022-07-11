@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="/css/view_appointment.css">
     <link rel="stylesheet" href="/css/add_doctor_and-view_doctor.css">
     <link rel="stylesheet" href="/css/add_staff.css">
+    <link rel="stylesheet" href="/css/student_register.css">
 
     @livewireStyles
   

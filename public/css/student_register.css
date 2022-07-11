@@ -1,0 +1,30 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tag{
+    background-color: #a2d2ff;
+    color: #ffc8dd;
+    max-width: 10rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.register_student_parent{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.register_graphic_wrapper{
+    flex-grow: 1;
+}
+
+.register_form_wrapper{
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
