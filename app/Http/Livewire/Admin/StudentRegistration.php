@@ -2,8 +2,8 @@
 
 namespace App\Http\Livewire\Admin;
 
+use App\Models\studentRecord;
 use Livewire\Component;
-use app\Models\studentRecord;
 use Livewire\WithFileUploads;
 
 class StudentRegistration extends Component
@@ -11,15 +11,16 @@ class StudentRegistration extends Component
 
     use WithFileUploads;
     //input record from users;
-    public $firstname;
-    public $lastname;
-    public $email;
-    public $department;
-    public $college;
-    public $student_image;
-    public $student_level;
-    public $matric_no;
+    public $firstname = '';
+    public $lastname= '';
+    public $email= '';
+    public $department= '';
+    public $college= '';
+    public $student_image= '';
+    public $student_level= '';
+    public $matric_no= '';
 
+    
     protected $rules =[
         'email'=>'unique:student_records',
         'student_image'=> 'image|max:1024', // 1MB Max
@@ -42,7 +43,8 @@ class StudentRegistration extends Component
 
         ]);
 
-        session()->flash('success', 'record submitted succefully');;
+        session()->flash('success', 'record submitted succefully');
+        $this->reset();
 
     }
     public function render()

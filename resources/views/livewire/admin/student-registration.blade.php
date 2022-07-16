@@ -10,11 +10,11 @@
         </section>
         <section class="register_form_wrapper">
             @if (session()->get('success') )
-                <div class="alert alert-danger"> {{ session()->get("success") }}</div>
+                <div class="alert alert-success"> {{ session()->get("success") }}</div>
         
             @endif
-              
-            <form wire:submit.prevent='submitStudentRecord' method="POST">
+             
+            <form wire:submit.prevent='submitStudentRecord'>
                 <div class="mb-3">
                     <label for="firstname" class="form-label">Firstname</label>
                     <input type="text" class="form-control" id="firstname" name="firstname" aria-describedby="firstnameHelp" wire:model.defer='firstname'>
@@ -22,7 +22,7 @@
 
                 <div class="mb-3">
                     <label for="lastname" class="form-label">Lastname</label>
-                    <input type="text" class="form-control" id="lastname" name="lastname"  aria-describedby="lastnameHelp" wire:model.defer='lastname'>
+                    <input type="text" class="form-control" id="lastname" name="lastname"  aria-describedby="lastnameHelp" wire:model='lastname'>
                 </div>
                 <div class="mb-3">
                     <div id="error" class="form-text">@error('email') {{ $message }} @enderror</div>
