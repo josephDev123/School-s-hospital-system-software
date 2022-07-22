@@ -25,10 +25,11 @@
                     <input type="text" class="form-control" id="lastname" name="lastname"  aria-describedby="lastnameHelp" wire:model='lastname'>
                 </div>
                 <div class="mb-3">
-                    <div id="error" class="form-text">@error('email') {{ $message }} @enderror</div>
+                    {{-- <div id="error" class="form-text alert alert-danger">@error('email') {{ $message }} @enderror</div> --}}
                     <label for="InputEmail1" class="form-label">Email address</label>
                     <input type="email" class="form-control" id="InputEmail1" name="email"  aria-describedby="emailHelp" wire:model.defer='email'>
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    @error('email') <div id="emailHelp" class="form-text text-danger">{{ $message }}</div> @enderror
                 </div>
                 <div class="mb-3">
                     <label for="department" class="form-label">Department</label>
@@ -40,8 +41,13 @@
                     <input type="text" class="form-control" id="college" name="college" aria-describedby="collegeHelp" wire:model.defer='college'>
                 </div>
                 <div class="mb-3">
+                    <div class="alert alert-warning" wire:loading wire:target="student_image">Uploading...</div>
+                      {{-- @if ($error->has('image'))
+                      <div id="error" class="form-text alert alert-danger">@error('image') {{ $message }} @enderror</div> 
+                      @endif --}}
                     <label for="image" class="form-label">student image</label>
                     <input type="file" class="form-control" id="image" name="image" aria-describedby="imageHelp" wire:model.defer='student_image'>
+                    @error('image') <div id="emailHelp" class="form-text text-danger">{{ $message }}</div> @enderror
                 </div>
                 <div class="mb-3">
                     <label for="level" class="form-label">Level</label>
